@@ -1,0 +1,2 @@
+The aim of the project is, when an user inputs a number & hit convert
+it will convert the number into words.
