@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Index</title>
+
+<style type="text/css">
+h1 {
+	background: black;
+	color: white;
+	font-family: fantasy;
+	font: bold;
+	font-size: 50px;
+	text-align: center;
+}
+
+
+div head {
+	width: 100%;
+	overflow: auto;
+}
+
+.input {
+	float: left;
+	width: 50%;
+	background-color: red;
+	color: white;
+	font-family: fantasy;
+	font: bold;
+	font-size: 25px;
+	text-align: center;
+	color: white;
+}
+
+.note {
+	float: right;
+	width: 50%;
+	background: blue;
+	color: white;
+	font-family: fantasy;
+	font: bold;
+	font-size: 25px;
+	text-align: center;
+	color: white;
+}
+
+div main {
+	width: 100%;
+	overflow: auto;
+	background-color: gray;
+}
+
+.orignal {
+	float: left;
+	width: 50%;
+	background-color: red;
+	color: white;
+	font-family: fantasy;
+	font: bold;
+	font-size: 10px;
+	text-align: center;
+	color: white;
+}
+
+.main{
+
+	
+	background-color: yellow;
+	color: white;
+	font-family: fantasy;
+	font: bold;
+	font-size: 15px;
+	text-align: center;
+	color: blue;
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+	<h1>Number to Word Converter</h1>
+	<br>
+	<hr>
+	<br>
+
+	<div class="head">
+		<span class="input">INPUT</span> 
+		<span class="note">NOTE</span>
+	</div>
+	
+	<div class="main">
+		<span class="orignal">
+			<form method="post" name="form-1" action="Entered_Number">
+				<input type="text" style="width: 100%;" name="EnteredNumber"
+					required="required"><br> 
+					<input type="submit" value="Convert">
+			</form>
+		</span>
+		
+		<span >
+		Enter number between 0 to 999 999 999 only
+		</span> 
+	</div>
+	
+	<br>
+	<br>
+	<hr>
+</body>
+</html>
