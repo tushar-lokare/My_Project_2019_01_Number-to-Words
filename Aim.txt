@@ -1,2 +1,18 @@
 The aim of the project is, when an user inputs a number & hit convert
 it will convert the number into words.
+
+(ek)		    1		One
+(das)		    10		Ten
+(sau)		    100		Hundred
+(hazār)		  1,000		One Thousand
+(das hazār)	10,000		Ten Thousand
+(lakh)		  1,00,000	Hundred Thousand
+(das lakh)	10,00,000	One Million
+(karod)		  1,00,00,000	Ten Million
+(das karod)	10,00,00,000	Hundred Million
+(arab)	    1,00,00,00,000	One Billion
+
+This converter will count 
+from 0
+till 999 999 999
+total  1,00,00,00,000	One Billion numbers it will convert.
